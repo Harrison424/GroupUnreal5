@@ -699,3 +699,17 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.02.21-19.31.04:971][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
 [2023.02.21-19.31.04:973][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.02.21-19.31.05:012][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.02.21-19.32.54:901][533]LogDerivedDataCache: C:/Users/hnett/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.006 and deleted 0 file(s) with total size 0 MiB.
+[2023.02.21-19.36.36:133][427]Cmd: TRANSACTION UNDO
+[2023.02.21-19.36.36:133][427]LogEditorTransaction: Undo Clicking on Elements
+[2023.02.21-19.36.36:590][441]Cmd: TRANSACTION UNDO
+[2023.02.21-19.36.36:590][441]LogEditorTransaction: Undo Move Elements
+[2023.02.21-19.41.06:870][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.02.21-19.41.06:871][452]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.007
+[2023.02.21-19.51.27:334][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.02.21-19.51.27:335][687]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.007
+[2023.02.21-19.55.28:001][662]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.005759 seconds
+[2023.02.21-19.55.28:003][662]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/4J/JZZUTN4PJEE87ZGC3X4M4N
+[2023.02.21-19.55.28:004][662]LogSavePackage: Moving 'C:/Users/hnett/Documents/GitHub/GroupUnreal5/Saved/JZZUTN4PJEE87ZGC3X4M4N5B6B3CEF44F8D60A8832149B5464276F.tmp' to 'C:/Users/hnett/Documents/GitHub/GroupUnreal5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/4J/JZZUTN4PJEE87ZGC3X4M4N.uasset'
+[2023.02.21-19.55.28:020][662]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_18C04DD072D3C76801_1819374007
+[2023.02.21-19.55.28:020][662]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_18C04DD072D3C76801_1819374007
