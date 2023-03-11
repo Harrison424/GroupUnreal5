@@ -26,3 +26,13 @@
 [0223/210930.333:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
 [0223/210930.525:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
 [0223/210930.525:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0311/180437.880:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0311/180442.310:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0311/181449.748:ERROR:device_event_log_impl.cc(208)] [18:14:49.748] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+[0311/181546.176:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0311/181546.187:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0311/181546.203:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0311/181546.204:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0311/181546.240:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 19
+[0311/181547.393:ERROR:leveldb_factory.cc(90)] Failed to open LevelDB database from C:/Users/hnett/Documents/GitHub/GroupUnreal5/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:/Users/hnett/Documents/GitHub/GroupUnreal5/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0311/181547.399:ERROR:leveldb_factory.cc(90)] Failed to open LevelDB database from C:/Users/hnett/Documents/GitHub/GroupUnreal5/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:/Users/hnett/Documents/GitHub/GroupUnreal5/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
