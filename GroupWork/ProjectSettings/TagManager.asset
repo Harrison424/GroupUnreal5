@@ -9,6 +9,7 @@ TagManager:
   - SphereCol
   - Monster
   - Player1
+  - Attack
   layers:
   - Default
   - TransparentFX
