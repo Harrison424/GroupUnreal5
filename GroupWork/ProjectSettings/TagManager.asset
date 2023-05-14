@@ -10,6 +10,7 @@ TagManager:
   - Monster
   - Player1
   - Attack
+  - Door
   layers:
   - Default
   - TransparentFX
