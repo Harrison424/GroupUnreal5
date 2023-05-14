@@ -37,11 +37,11 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        
-        if (other.tag=="Door")
+        if (other.tag=="Door" || other.tag == "Player")
         {
 
         }
-        else { DestroyObject(this.gameObject); Instantiate(vfxHitGreen, transform.position, Quaternion.identity); }
+        else { DestroyObject(this.gameObject); Instantiate(vfxHitRed, transform.position, Quaternion.identity); }
         
 
     }
