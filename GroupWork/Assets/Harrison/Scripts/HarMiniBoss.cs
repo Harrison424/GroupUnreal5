@@ -27,10 +27,7 @@ public class HarMiniBoss : MonoBehaviour
     }
     void AOE()
     {
-       
             Instantiate(AOEAttack, Target.position, Target.rotation);
-            Wait = 3;
-        
-       
+            Wait = 3;       
     }
 }
