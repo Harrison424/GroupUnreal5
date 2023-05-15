@@ -11,6 +11,8 @@ TagManager:
   - Player1
   - Attack
   - Door
+  - Fire
+  - Bullet
   layers:
   - Default
   - TransparentFX
