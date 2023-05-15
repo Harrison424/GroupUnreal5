@@ -9,7 +9,7 @@ public class AoEBoss : MonoBehaviour
     public AudioSource SoundBeep;
     public AudioSource SoundEnd;
     public Transform vfxEnd;
-
+    public bool ON;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,20 +20,23 @@ public class AoEBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Wait != -1)
+        if(ON == true)
         {
-            Wait -= Time.deltaTime;
-        }
-        if (Wait <= 0 && Once == 0)
-        {
-            Instantiate(SoundEnd, transform.position, Quaternion.identity);
-            Instantiate(vfxEnd, transform.position, Quaternion.identity);
-            Once = 1;
-            
-        }
-        if (Wait <= -1)
-        {
-            DestroyObject(this.gameObject);
+            if (Wait != -1)
+            {
+                Wait -= Time.deltaTime;
+            }
+            if (Wait <= 0 && Once == 0)
+            {
+                Instantiate(SoundEnd, transform.position, Quaternion.identity);
+                Instantiate(vfxEnd, transform.position, Quaternion.identity);
+                Once = 1;
+
+            }
+            if (Wait <= -1)
+            {
+                DestroyObject(this.gameObject);
+            }
         }
     }
 }
