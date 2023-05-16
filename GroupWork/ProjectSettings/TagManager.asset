@@ -13,6 +13,7 @@ TagManager:
   - Door
   - Fire
   - Bullet
+  - Bear
   layers:
   - Default
   - TransparentFX

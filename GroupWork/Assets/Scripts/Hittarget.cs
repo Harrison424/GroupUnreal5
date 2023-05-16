@@ -6,6 +6,10 @@ public class Hittarget : MonoBehaviour
 {
     public GameObject bridge1;
     public GameObject portal1;
+
+    
+
+
    
     void Start()
     {
@@ -23,6 +27,8 @@ public class Hittarget : MonoBehaviour
         {
             bridge1.SetActive(true);
             portal1.SetActive(true);
+
+            
         }
     }
 }

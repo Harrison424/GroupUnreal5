@@ -6,6 +6,7 @@ public class Blowuptower : MonoBehaviour
 {
     public GameObject Reactor;
     public GameObject DMG1;
+    public GameObject noshield;
     
     void Start()
     {

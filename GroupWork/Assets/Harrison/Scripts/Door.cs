@@ -18,6 +18,12 @@ public class Door : MonoBehaviour
             Anim.SetBool("character_nearby", true);
             //Sound.Play();
         }
+        if (other.tag == "Bear")
+        {
+            Anim.SetBool("character_nearby", true);
+            //Sound.Play();
+        }
+
     }
 
     public void OnTriggerExit(Collider other)
@@ -27,7 +33,13 @@ public class Door : MonoBehaviour
             Anim.SetBool("character_nearby", false);
             
         }
+        if (other.tag == "Bear")
+        {
+            Anim.SetBool("character_nearby", false);
+
+        }
     }
+
 
 
 
