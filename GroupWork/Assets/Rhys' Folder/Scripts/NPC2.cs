@@ -14,6 +14,8 @@ public class NPC2 : MonoBehaviour
     public int NextPath;
     public int doOnce;
 
+    public int FindPlayer;
+    public Transform Player;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +57,21 @@ public class NPC2 : MonoBehaviour
             NextPath = 3;
             doOnce++;
         }
+        if(FindPlayer == 1)
+        {
+            agent.SetDestination(Player.position);
+        }
+        
     }
-   
+   void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+            FindPlayer = 1;
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        NextPath = 0;
+    }
 }
