@@ -17,6 +17,7 @@ public class Monsterchase : MonoBehaviour
     public int StillIn;
     public GameObject Test1;
     public float Counter;
+    public GameObject shield;
     void Start()
     {
         Anmi = this.transform.GetComponent<Animator>();
@@ -61,13 +62,18 @@ public class Monsterchase : MonoBehaviour
             Anmi.SetBool("Dead", true);
             agent.SetDestination(target2.position);
         }
+       
     }
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Bullet")
         {
-            Killed--;
+           
             //EnemyHit.Play();
+            if (shield == null)
+            {
+                Killed--;
+            }
         }
         else
         {

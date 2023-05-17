@@ -6,6 +6,7 @@ using UnityEngine;
 public class Noshielldd : MonoBehaviour
 {
     public GameObject bossshield;
+    public GameObject Generator;
     
     void Start()
     {
@@ -21,7 +22,8 @@ public class Noshielldd : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            bossshield.SetActive(false);
+            Generator.SetActive(false);
+            Destroy(bossshield);
 
             
 

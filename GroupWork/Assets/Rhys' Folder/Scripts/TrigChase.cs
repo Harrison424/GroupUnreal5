@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class TrigChase : MonoBehaviour
 {
     [SerializeField] GameObject Monster;
-    Monsterchase monsterchase;
+     Monsterchase monsterchase;
 
     void Start()
     {
