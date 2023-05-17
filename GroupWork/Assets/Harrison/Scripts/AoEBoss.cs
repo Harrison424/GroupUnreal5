@@ -20,7 +20,8 @@ public class AoEBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(ON == true)
+        {
             if (Wait != -1)
             {
                 Wait -= Time.deltaTime;
@@ -36,6 +37,6 @@ public class AoEBoss : MonoBehaviour
             {
                 DestroyObject(this.gameObject);
             }
-        
+        }
     }
 }

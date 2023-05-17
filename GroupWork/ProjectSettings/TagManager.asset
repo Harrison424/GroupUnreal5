@@ -13,11 +13,7 @@ TagManager:
   - Door
   - Fire
   - Bullet
-<<<<<<< HEAD
   - Bear
-=======
-  - Enemy
->>>>>>> 8c7c3ad90addb32106843c0f082d232292f1fe46
   layers:
   - Default
   - TransparentFX
