@@ -5,8 +5,8 @@ using UnityEngine;
 public class Blowuptower : MonoBehaviour
 {
     public GameObject Reactor;
-    public GameObject DMG1;
-    public GameObject noshield;
+    public GameObject Shield;
+  
     
     void Start()
     {
@@ -22,7 +22,8 @@ public class Blowuptower : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            DMG1.SetActive(true);
+            Shield.SetActive(false);
+         
             Reactor.SetActive(false);
             
             
